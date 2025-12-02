@@ -11,7 +11,7 @@ spec:
   source: 
     path: guestbook
     #repoURL: 'https://github.com/filipelopes2020/argocd-app.git'
-    https://github.com/mabusaa/argocd-example-apps/blob/master/guestbook/guestbook-ui-deployment.yaml
+    repoURL: 'https://github.com/mabusaa/argocd-example-apps/blob/master/guestbook/guestbook-ui-deployment.yaml'
     targetRevision: main
   syncPolicy:
     syncOptions:
