@@ -12,6 +12,8 @@ spec:
     path: guest-with-sub-directories    
     repoURL: 'https://github.com/mabusaa/argocd-example-apps.git'
     targetRevision: master
+    directory:
+      recurse: true
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
